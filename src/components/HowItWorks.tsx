@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 export function HowItWork() {
@@ -15,10 +14,9 @@ export function HowItWork() {
 
         <div className="mt-10 flex justify-center">
           <AspectRatio ratio={16 / 9} className="relative w-full max-w-3xl shadow-lg rounded-xl overflow-hidden">
-            <Image
+            <img
               src="/openRouter.gif"
               alt="How it works"
-              fill
               className="object-cover transition-transform duration-300 hover:scale-105"
             />
           </AspectRatio>
