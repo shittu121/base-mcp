@@ -15,7 +15,7 @@ export function HowItWork() {
         <div className="mt-10 flex justify-center">
           <AspectRatio ratio={16 / 9} className="relative w-full max-w-3xl shadow-lg rounded-xl overflow-hidden">
             <img
-              src="/openRouter.gif"
+              src="/OpenRouter.gif"
               alt="How it works"
               className="object-cover transition-transform duration-300 hover:scale-105"
             />
